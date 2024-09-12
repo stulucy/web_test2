@@ -42,21 +42,28 @@ main{
 }
 .tasks{
   width: 400px;
-  height: 100px;
+  height: fit-content;
   background-color: bisque;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   border-radius: 5px;
 }
-.tasks-2{
-  display:none;
-  width: 400px;
-  background-color: bisque;
-  height: 100px;
+
+.bigspan{
+  display: flex;
+  justify-content: space-around;
+
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border-radius: 5px;
+}
+.divdiv{
+  display: flex;
+  justify-content:center;
+  
+}
+.pp, .abc{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 5px;
 }
